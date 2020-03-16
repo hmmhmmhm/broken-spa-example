@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    height: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'NanumSquareRound', sans-serif;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    overflow: -moz-scrollbars-none;
+    user-select: none;
+}
+
+/* Safari no scoll */
+.bg::-webkit-scrollbar {
+    width: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 0 !important;
+}
